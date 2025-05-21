@@ -1,3 +1,5 @@
+import Banner from "../../Components/Banner";
+
 export default function Home() {
-    return <main>Coucou</main>;
+    return <Banner />;
 }

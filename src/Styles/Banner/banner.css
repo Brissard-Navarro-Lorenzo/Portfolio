@@ -1,0 +1,57 @@
+.banner {
+    position: relative;
+}
+.banner img {
+    width: 100%;
+    height: 556px;
+    filter: brightness(0.5);
+    object-fit: cover;
+}
+.banner_content {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.banner_content h1 {
+    font-family: "Righteous", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--jaune);
+}
+.banner_content h3 {
+    font-size: 20px;
+    font-weight: 400;
+    width: 276px;
+}
+.banner_buttons {
+    width: 270px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+.white_button {
+    padding: 12px 0;
+    background: var(--texte-blanc);
+    text-decoration: none;
+    color: var(--background-clair);
+    width: 150px;
+    text-align: center;
+}
+.transparent_button {
+    padding: 12px 15px;
+    background: transparent;
+    text-decoration: none;
+    color: var(--texte-blanc);
+    border: 1px solid var(--texte-blanc);
+}
+#cv_button {
+    display: block;
+    text-align: center;
+}

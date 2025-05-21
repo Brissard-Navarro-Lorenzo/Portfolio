@@ -4,6 +4,9 @@ body {
     font-family: "Rethink Sans", sans-serif;
     color: var(--texte-blanc);
     background-color: var(--background-clair);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .fa-solid {
     font-size: 32px;

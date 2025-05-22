@@ -1,0 +1,15 @@
+.competence-box {
+    background-color: var(--texte-blanc);
+    width: 146px;
+    height: 90px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.competence-box img {
+    max-width: 80%;
+    object-fit: contain;
+    max-height: 80%;
+}

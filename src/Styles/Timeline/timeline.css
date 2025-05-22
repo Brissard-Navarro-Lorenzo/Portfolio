@@ -1,0 +1,40 @@
+.formations {
+    padding: 30px 0;
+}
+.formations h2 {
+    font-family: "Righteous", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--jaune);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.vertical-timeline-element-content {
+    padding: 10px 10px 250px 10px;
+    background: transparent;
+    box-shadow: none;
+    position: relative;
+}
+.vertical-timeline-element-content-arrow {
+    display: none;
+}
+.vertical-timeline-element-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.vertical-timeline-element-subtitle {
+    font-size: 22px;
+}
+.vertical-timeline-element-content p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.timeline-picture {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

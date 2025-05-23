@@ -1,0 +1,44 @@
+[
+    {
+        "id": "application-de-location-immobilière",
+        "titre": "Application de location immobilière avec React & React Router",
+        "description_courte": "Développement d’un front-end moderne avec React et navigation dynamique via React Router, à partir de maquettes et de données simulées.",
+        "image": "/projets/kasa.jpg",
+        "couleur": "#E8AF8D"
+    },
+    {
+        "id": "jeu-de-tir-en-pixel-art",
+        "titre": "Jeu de tir en pixel art avec Python et P5",
+        "description_courte": "Jeu d’arcade rétro : pilotez un vaisseau, éliminez l’alien et progressez à travers 30 niveaux à difficulté croissante.",
+        "image": "/projets/pixel.png",
+        "couleur": "#DCBAE9"
+    },
+    {
+        "id": "back-end-site-de-notation-de-livres",
+        "titre": "Back-end d’un site de notation de livres avec NodeJS, Express & MongoDB",
+        "description_courte": "Création d’une API sécurisée avec Express, MongoDB et Mongoose, incluant authentification, gestion d’images et notation des livres",
+        "image": "/projets/grimoire.jpg",
+        "couleur": "#CB5629"
+    },
+    {
+        "id": "optimisation-SEO-et-performance-du-site",
+        "titre": "Optimisation SEO & performance du site de la photographe Nina Carducci",
+        "description_courte": "Audit, optimisation du code et amélioration de l’accessibilité pour booster les performances et le référencement d’un site vitrine.",
+        "image": "/projets/nina.png",
+        "couleur": "#B2AAAA"
+    },
+    {
+        "id": "quiz-interactif",
+        "titre": "Quiz interactif en JavaScript sur les bases de l’informatique",
+        "description_courte": "Création d’un quiz dynamique avec indices, effets sonores et logique JavaScript pour tester les connaissances en informatique",
+        "image": "/projets/quiz.jpg",
+        "couleur": "#007AFF"
+    },
+    {
+        "id": "page-web-dynamique",
+        "titre": "Page web dynamique pour le portfolio de l’architecte Sophie Bluel avec JavaScript",
+        "description_courte": "Développement d’une interface interactive en JavaScript avec gestion d’événements et communication API",
+        "image": "/projets/bluel.png",
+        "couleur": "#14BF99"
+    }
+]

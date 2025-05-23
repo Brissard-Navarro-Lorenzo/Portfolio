@@ -1,0 +1,17 @@
+.projets {
+    padding: 30px 0;
+}
+.projets h2 {
+    font-family: "Righteous", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--jaune);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.projets-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 8px;
+}

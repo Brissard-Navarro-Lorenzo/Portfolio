@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router";
 import Navbar from "./Navbar";
 import Home from "../Pages/Home";
+import Footer from "./Footer";
 // import Project from "../Pages/Project";
 
 export default function Routeur() {
@@ -12,6 +13,7 @@ export default function Routeur() {
                 <Route path="/" element={<Home />} />
                 {/* <Route path="/project/:id" element={<Project />} /> */}
             </Routes>
+            <Footer />
         </BrowserRouter>
     );
 }

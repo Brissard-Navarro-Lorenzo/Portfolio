@@ -14,15 +14,15 @@ export default function Banner() {
                 </h3>
                 <div className="banner_buttons">
                     <div className="buttons">
-                        <a href="#" className="white_button">
-                            En savoir plus
+                        <a href="#">
+                            <button className="white_button">En savoir plus</button>
                         </a>
-                        <a href="#" className="transparent_button">
-                            Contact
+                        <a href="#">
+                            <button className="transparent_button">Contact</button>
                         </a>
                     </div>
-                    <a href="#" className="transparent_button" id="cv_button">
-                        Consulter le CV
+                    <a href="#">
+                        <button className="transparent_button">Consulter le CV</button>
                     </a>
                 </div>
             </div>

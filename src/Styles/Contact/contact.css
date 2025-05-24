@@ -1,0 +1,55 @@
+.contact {
+    background-color: var(--background-fonce);
+    padding: 30px 0;
+}
+.contact h2 {
+    font-family: "Righteous", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--jaune);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact h3 {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+.contact-content {
+    padding: 0 20px;
+    margin: 35px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+.email,
+.telephone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 317px;
+    border-radius: 20px;
+}
+.email {
+    box-shadow: 3px 10px 6px -1px var(--jaune), -3px 2px 4px -2px var(--jaune);
+}
+.telephone {
+    box-shadow: 3px -10px 6px -1px var(--jaune), -3px -2px 4px -2px var(--jaune);
+}
+.contact-content h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.contact-content button {
+    padding: 12px 15px;
+    background: transparent;
+    text-decoration: none;
+    color: var(--texte-blanc);
+    border: 1px solid var(--texte-blanc);
+    font-size: 18px;
+    font-family: "Rethink Sans";
+}
+.contact-content i {
+    font-size: 32px;
+}

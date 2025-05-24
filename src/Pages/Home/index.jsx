@@ -1,6 +1,7 @@
 import Banner from "../../Components/Banner";
 import Timeline from "../../Components/Timeline";
 import Gallery from "../../Components/Gallery";
+import Contact from "../../Components/Contact";
 import SectionCompetences from "../../Components/SectionCompetences";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
             <Timeline />
             <SectionCompetences />
             <Gallery />
+            <Contact />
         </main>
     );
 }

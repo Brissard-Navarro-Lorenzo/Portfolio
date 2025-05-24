@@ -36,22 +36,19 @@
     margin-bottom: 40px;
     margin-top: 25px;
 }
-.white_button {
-    padding: 12px 0;
-    background: var(--texte-blanc);
+.banner_buttons button {
+    padding: 12px 15px;
     text-decoration: none;
-    color: var(--background-clair);
-    width: 150px;
-    text-align: center;
+    border: 1px solid var(--texte-blanc);
+    font-size: 18px;
+    font-family: "Rethink Sans";
+    width: 100%;
 }
 .transparent_button {
-    padding: 12px 15px;
     background: transparent;
-    text-decoration: none;
     color: var(--texte-blanc);
-    border: 1px solid var(--texte-blanc);
 }
-#cv_button {
-    display: block;
-    text-align: center;
+.white_button {
+    color: var(--background-fonce);
+    background: var(--texte-blanc);
 }

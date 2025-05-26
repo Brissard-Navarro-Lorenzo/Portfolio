@@ -1,10 +1,11 @@
 import "../Styles/Banner/banner.css";
 import BannerImage from "../images/image_accueil.png";
+import image from "../images/accueil_image.png";
 
 export default function Banner() {
     return (
         <section className="banner">
-            <img src={BannerImage} alt="Image d'accueil présentant différents langages" />
+            <img src={image} alt="Image d'accueil présentant différents langages" />
             <div className="banner_content">
                 <h1>Bonjour je suis Lorenzo, développeur web passionné</h1>
                 <h3>

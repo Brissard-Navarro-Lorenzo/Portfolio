@@ -52,3 +52,43 @@
     color: var(--background-fonce);
     background: var(--texte-blanc);
 }
+@media (min-width: 1160px) {
+    .banner img {
+        height: 825px;
+    }
+    .banner_content h1 {
+        font-size: 58px;
+    }
+    .banner_content h3 {
+        font-size: 28px;
+    }
+    .banner_content {
+        width: 460px;
+        left: 180px;
+    }
+    .banner_content h3 {
+        width: 376px;
+    }
+}
+@media (min-width: 1360px) {
+    .banner_content {
+        left: 280px;
+    }
+    .banner {
+        display: flex;
+        justify-content: end;
+        background: #000000;
+    }
+    .banner img {
+        width: 60%;
+    }
+    .banner_buttons {
+        display: flex;
+        width: 500px;
+        align-items: baseline;
+        gap: 20px;
+    }
+    .buttons {
+        gap: 20px;
+    }
+}

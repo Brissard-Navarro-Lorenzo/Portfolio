@@ -6,14 +6,12 @@ body {
     background-color: var(--background-clair);
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .fa-solid {
     font-size: 32px;
 }
 #root {
     margin: 0;
-    max-width: 1440px;
     min-width: 320px;
     min-height: 100vh;
 }

@@ -38,3 +38,59 @@
 .projet-lien .fa-solid {
     font-size: large;
 }
+@media (min-width: 520px) {
+    .projet-container {
+        height: 540px;
+    }
+    .projet-container img {
+        height: 55%;
+    }
+    .projet-container h3 {
+        font-size: 24px;
+    }
+    .projet-container p {
+        font-size: 20px;
+    }
+}
+@media (min-width: 700px) {
+    .projet-container {
+        height: 432px;
+    }
+    .projet-container img {
+        height: 47%;
+    }
+    .projet-container h3 {
+        font-size: 20px;
+    }
+    .projet-container p {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1024px) {
+    .projet-container {
+        height: 540px;
+    }
+    .projet-container img {
+        height: 55%;
+    }
+    .projet-container h3 {
+        font-size: 24px;
+    }
+    .projet-container p {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1640px) {
+    .projet-container {
+        height: 587px;
+    }
+    .projet-container img {
+        height: 55%;
+    }
+    .projet-container h3 {
+        font-size: 28px;
+    }
+    .projet-container p {
+        font-size: 24px;
+    }
+}

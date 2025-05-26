@@ -15,3 +15,20 @@
     gap: 20px;
     padding: 0 8px;
 }
+@media (min-width: 700px) {
+    .projets-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .projets h2 {
+        font-size: 58px;
+        margin-bottom: 70px;
+    }
+}
+@media (min-width: 1440px) {
+    .projets {
+        padding: 30px 280px;
+    }
+}

@@ -53,3 +53,38 @@
 .contact-content i {
     font-size: 32px;
 }
+@media (min-width: 450px) {
+    .email,
+    .telephone {
+        width: 378px;
+    }
+    .contact-content {
+        align-items: center;
+    }
+}
+@media (min-width: 1024px) {
+    .contact-content h3 {
+        font-size: 40px;
+    }
+    .contact-content button {
+        font-size: 22px;
+    }
+    .contact-content i {
+        font-size: 36px;
+    }
+    .contact h2 {
+        font-size: 58px;
+    }
+    .contact h3 {
+        font-size: 40px;
+    }
+    .contact-content {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .email,
+    .telephone {
+        width: 475px;
+        height: 421px;
+    }
+}

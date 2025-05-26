@@ -19,3 +19,18 @@ footer h4 {
 footer svg {
     fill: var(--texte-blanc);
 }
+@media (min-width: 1024px) {
+    footer h4 {
+        position: static;
+        width: auto;
+    }
+    footer {
+        align-items: center;
+        padding: 0;
+    }
+}
+@media (min-width: 1440px) {
+    footer {
+        margin: 20px 280px;
+    }
+}

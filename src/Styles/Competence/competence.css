@@ -13,3 +13,10 @@
     object-fit: contain;
     max-height: 80%;
 }
+@media (min-width: 1024px) {
+    .competence-box {
+        width: 259px;
+        height: 160px;
+        margin-right: 20px;
+    }
+}

@@ -48,7 +48,7 @@
 .slider-track {
     display: flex;
     flex-direction: column;
-    animation: slide 13s linear infinite;
+    animation: slide-vertical 13s linear infinite;
 }
 .slider-column:hover .slider-track {
     animation-play-state: paused;
@@ -56,11 +56,64 @@
 .reverse {
     animation-direction: reverse;
 }
-@keyframes slide {
+@keyframes slide-vertical {
     from {
         transform: translateY(0);
     }
     to {
         transform: translateY(-100%);
+    }
+}
+@keyframes slide-horizontal {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+@media (min-width: 1024px) {
+    .competences-content {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 35px;
+    }
+    .competences-text h2 {
+        font-size: 58px;
+    }
+    .competences-text h3 {
+        font-size: 24px;
+    }
+    .slider-column {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+    }
+
+    .slider-track {
+        flex-direction: row;
+        animation: slide-horizontal 13s linear infinite;
+    }
+    .reverse {
+        animation: slide-horizontal 13s linear infinite reverse;
+    }
+
+    .slider-column::before,
+    .slider-column::after {
+        height: 100%;
+        width: 35px;
+        top: 0;
+    }
+
+    .slider-column::before {
+        left: 0;
+        background: linear-gradient(to right, var(--background-clair), transparent);
+    }
+
+    .slider-column::after {
+        right: 0;
+        left: auto;
+        background: linear-gradient(to left, var(--background-clair), transparent);
     }
 }

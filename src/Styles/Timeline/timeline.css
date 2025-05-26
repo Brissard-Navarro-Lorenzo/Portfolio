@@ -38,3 +38,31 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    opacity: 1;
+}
+@media (min-width: 1024px) {
+    .formations h2 {
+        font-size: 58px;
+    }
+    .vertical-timeline-element-title,
+    .vertical-timeline-element-subtitle {
+        font-size: 40px;
+    }
+
+    .vertical-timeline-element-content p {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1169px) {
+    .vertical-timeline-element-content p {
+        line-height: normal;
+    }
+    .vertical-timeline--two-columns .vertical-timeline-element-content {
+        padding: 9px;
+    }
+    .timeline-picture {
+        width: 450px;
+        height: 450px;
+    }
+}

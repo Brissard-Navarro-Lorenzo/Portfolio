@@ -11,6 +11,7 @@ export default function Timeline() {
                 {formations.map((formation, index) => (
                     <VerticalTimelineElement
                         key={index}
+                        date={<img className="timeline-picture" src={formation.image} alt={formation.image_alt} />}
                         icon={
                             <img
                                 src={formation.logo}
@@ -26,7 +27,6 @@ export default function Timeline() {
                         <h3 className="vertical-timeline-element-title">{formation.date}</h3>
                         <h3 className="vertical-timeline-element-subtitle">{formation.titre}</h3>
                         <p>{formation.description}</p>
-                        <img className="timeline-picture" src={formation.image} alt={formation.image_alt} />
                     </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>

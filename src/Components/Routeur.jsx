@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Navbar from "./Navbar";
 import Home from "../Pages/Home";
 import Footer from "./Footer";
-// import Project from "../Pages/Project";
+import Project from "../Pages/Project";
 
 export default function Routeur() {
     return (
@@ -11,7 +11,7 @@ export default function Routeur() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* <Route path="/project/:id" element={<Project />} /> */}
+                <Route path="/project/:id" element={<Project />} />
             </Routes>
             <Footer />
         </BrowserRouter>

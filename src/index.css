@@ -1,5 +1,9 @@
 @import "./Styles/Variables/variables.css";
 
+a {
+    text-decoration: none;
+    color: var(--texte-blanc);
+}
 body {
     font-family: "Rethink Sans", sans-serif;
     color: var(--texte-blanc);

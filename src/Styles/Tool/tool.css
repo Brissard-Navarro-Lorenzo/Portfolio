@@ -1,0 +1,16 @@
+.tool-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 195px;
+    border-radius: 20px;
+}
+.tool-container img {
+    max-width: 80%;
+    object-fit: contain;
+    max-height: 40%;
+}
+.tool-container h3 {
+    font-size: 22px;
+}

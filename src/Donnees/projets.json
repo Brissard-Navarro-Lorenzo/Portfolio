@@ -1,44 +1,72 @@
 [
     {
-        "id": "application-de-location-immobilière",
-        "titre": "Application de location immobilière avec React & React Router",
+        "id": "application-de-location-immobiliere",
+        "titre": "Application de location immobilière avec React et React Router",
         "description_courte": "Développement d’un front-end moderne avec React et navigation dynamique via React Router, à partir de maquettes et de données simulées.",
         "image": "/projets/kasa.jpg",
-        "couleur": "#E8AF8D"
+        "couleur": "#E8AF8D",
+        "description_longue": "Dans ce projet, j’ai développé le front-end complet d’une application web de location immobilière à l’aide de React, en suivant des maquettes précises et en manipulant des données simulées au format JSON. L’interface permet de naviguer de façon fluide entre les différentes pages (accueil, fiches logement, page 404, page about) grâce à React Router, tout en respectant les bonnes pratiques en matière de composants réutilisables. Le projet a été initialisé avec Vite afin de simplifier la configuration initiale d'une application React.",
+        "technologies": [
+            {
+                "nom": "React",
+                "logo": "/langages/react.png",
+                "bordure": "#61DAFB"
+            },
+            {
+                "nom": "React-Router",
+                "logo": "/langages/react-router.png",
+                "bordure": "#D0021B"
+            },
+            {
+                "nom": "Vite",
+                "logo": "/langages/vite.png",
+                "bordure": "#BD34FE"
+            },
+            {
+                "nom": "Sass",
+                "logo": "/langages/sass.png",
+                "bordure": "#CD669A"
+            }
+        ]
     },
     {
         "id": "jeu-de-tir-en-pixel-art",
         "titre": "Jeu de tir en pixel art avec Python et P5",
         "description_courte": "Jeu d’arcade rétro : pilotez un vaisseau, éliminez l’alien et progressez à travers 30 niveaux à difficulté croissante.",
         "image": "/projets/pixel.png",
-        "couleur": "#DCBAE9"
+        "couleur": "#DCBAE9",
+        "description_longue": "Dans ce projet, j’ai développé un jeu de tir en Python en utilisant le module p5, avec un univers en pixel art inspiré des classiques de l’arcade. Le joueur contrôle un vaisseau spatial capable de tirer des projectiles pour éliminer l'alien. Le jeu comporte 30 niveaux progressifs, avec une augmentation progressive de la difficulté (vitesse, taille, nombre ou comportement des ennemis). Le système de jeu repose sur la détection des collisions et m’a permis de mettre en pratique la programmation événementielle ainsi que la logique de boucle."
     },
     {
         "id": "back-end-site-de-notation-de-livres",
-        "titre": "Back-end d’un site de notation de livres avec NodeJS, Express & MongoDB",
+        "titre": "Back-end d’un site de notation de livres avec NodeJS, Express et MongoDB",
         "description_courte": "Création d’une API sécurisée avec Express, MongoDB et Mongoose, incluant authentification, gestion d’images et notation des livres",
         "image": "/projets/grimoire.jpg",
-        "couleur": "#CB5629"
+        "couleur": "#CB5629",
+        "description_longue": "Dans ce projet, j’ai conçu le back-end complet d’un site de notation de livres en utilisant Node.js, Express et MongoDB, avec une structure respectant l’architecture MVC. J’ai mis en place un serveur Express connecté à une base de données MongoDB via Mongoose, permettant la gestion sécurisée des utilisateurs et des livres. J’ai développé des modèles de données robustes, ainsi que les opérations CRUD nécessaires à la création, la lecture, la mise à jour et la suppression des livres. Un système d’authentification sécurisé (avec vérification des identifiants et gestion des tokens) a été implémenté pour protéger les routes sensibles. Le projet comprend également la gestion du téléversement et de l’optimisation d’images, et le calcul dynamique de la note moyenne des livres."
     },
     {
         "id": "optimisation-SEO-et-performance-du-site",
         "titre": "Optimisation SEO & performance du site de la photographe Nina Carducci",
         "description_courte": "Audit, optimisation du code et amélioration de l’accessibilité pour booster les performances et le référencement d’un site vitrine.",
         "image": "/projets/nina.png",
-        "couleur": "#B2AAAA"
+        "couleur": "#B2AAAA",
+        "description_longue": "Dans ce projet, j’ai endossé le rôle de développeur freelance pour optimiser les performances, l’accessibilité et le référencement (SEO) d’un site vitrine appartenant à une photographe. Après avoir identifié les points bloquants à l’aide d’outils comme Lighthouse et Wave, j’ai analysé en profondeur les causes des temps de chargement élevés, des erreurs d’accessibilité et des limitations SEO. J’ai ensuite formulé et appliqué des recommandations concrètes : optimisation du code HTML/CSS, réduction du poids des images, amélioration de la structure sémantique et de la compatibilité avec les lecteurs d’écran. Toutes les optimisations ont été mises en œuvre directement dans le code du site. Enfin, j’ai produit un rapport comparatif avant/après contenant des captures d’écran des audits et une explication détaillée de chaque amélioration apportée, illustrant l’impact positif sur les performances et le positionnement du site dans les moteurs de recherche."
     },
     {
         "id": "quiz-interactif",
         "titre": "Quiz interactif en JavaScript sur les bases de l’informatique",
         "description_courte": "Création d’un quiz dynamique avec indices, effets sonores et logique JavaScript pour tester les connaissances en informatique",
         "image": "/projets/quiz.jpg",
-        "couleur": "#007AFF"
+        "couleur": "#007AFF",
+        "description_longue": "Dans ce projet, j’ai conçu un quiz interactif en JavaScript composé de 8 questions portant sur les notions fondamentales d’informatique étudiées en classe de première (algorithmes, données, réseaux, etc.). Développé en JavaScript vanilla, le quiz intègre une logique de progression question par question, avec vérification des réponses, indices contextuels pour aider l’utilisateur et effets sonores pour dynamiser l’expérience. La gestion du DOM permet l’affichage ou le masquage des éléments en fonction des actions de l’utilisateur, sans rechargement de la page."
     },
     {
         "id": "page-web-dynamique",
         "titre": "Page web dynamique pour le portfolio de l’architecte Sophie Bluel avec JavaScript",
         "description_courte": "Développement d’une interface interactive en JavaScript avec gestion d’événements et communication API",
         "image": "/projets/bluel.png",
-        "couleur": "#14BF99"
+        "couleur": "#14BF99",
+        "description_longue": "Dans ce projet, j’ai développé une page web dynamique pour le site d’une architecte d’intérieur, en manipulant le DOM en JavaScript vanilla à partir d’une structure HTML existante. L’interface affiche les réalisations de l’architecte en interagissant avec une API REST, permettant l’affichage dynamique des œuvres via des appels fetch. J’ai géré les événements utilisateurs (filtres par catégorie, navigation) et conçu une modale personnalisée permettant d’ajouter de nouveaux médias (images, titres, catégories) avec envoi au serveur. Une page de connexion sécurisée pour l’administrateur a également été implémentée, avec gestion du token JWT stocké localement pour accéder aux fonctions d’administration."
     }
 ]

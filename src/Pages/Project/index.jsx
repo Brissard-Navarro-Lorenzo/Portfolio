@@ -2,6 +2,7 @@ import projets from "../../Donnees/projets.json";
 import "../../Styles/Project-page/project-page.css";
 import { useParams } from "react-router";
 import Tool from "../../Components/Tool";
+import Step from "../../Components/StepComponent";
 
 export default function Project() {
     const { id } = useParams();
@@ -38,8 +39,11 @@ export default function Project() {
             </section>
             <section className="step-project">
                 <div className="step-project-title">
-                    <i className="fa-solid fa-stairs"></i>
+                    <i className="fa-solid fa-list-check"></i>
                     <h2>Etapes du projet</h2>
+                </div>
+                <div className="step-project-content">
+                    <Step tableau={projetEnCours.etapes} />
                 </div>
             </section>
         </main>

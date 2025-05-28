@@ -1,0 +1,52 @@
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps
+    .ant-steps-item-finish
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title,
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps
+    .ant-steps-item-finish
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-description {
+    color: var(--texte-blanc);
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps.ant-steps-vertical {
+    align-items: center;
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps .ant-steps-item-icon {
+    width: 45px;
+    height: 45px;
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps {
+    line-height: 4;
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps.ant-steps-vertical
+    > .ant-steps-item
+    > .ant-steps-item-container
+    > .ant-steps-item-tail::after {
+    width: 2px;
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps .ant-steps-item-icon .ant-steps-icon {
+    top: 18%;
+    font-size: x-large;
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps.ant-steps-vertical
+    > .ant-steps-item
+    > .ant-steps-item-container
+    > .ant-steps-item-tail {
+    padding: 48px 0 6px;
+    inset-inline-start: 20px;
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps.ant-steps-vertical > .ant-steps-item {
+    width: 270px;
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps
+    .ant-steps-item-finish
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-description {
+    line-height: normal;
+}
+:where(.css-dev-only-do-not-override-5uvb3z).ant-steps.ant-steps-vertical > .ant-steps-item .ant-steps-item-content {
+    min-height: 120px;
+}

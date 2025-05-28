@@ -27,6 +27,36 @@
                 "logo": "/langages/sass.png",
                 "bordure": "#CD669A"
             }
+        ],
+        "etapes": [
+            {
+                "titre": "Etape 1",
+                "description": "Mise en place du routeur et des différentes pages de l'application"
+            },
+            {
+                "titre": "Etape 2",
+                "description": "Conception de la page d'accueil"
+            },
+            {
+                "titre": "Etape 3",
+                "description": "Élaboration de la page À propos"
+            },
+            {
+                "titre": "Etape 4",
+                "description": "Ajout de la page d'erreur personnalisée"
+            },
+            {
+                "titre": "Etape 5",
+                "description": "Développement du carrousel pour la page de logement"
+            },
+            {
+                "titre": "Etape 6",
+                "description": "Finalisation de la page de logement"
+            },
+            {
+                "titre": "Etape 7",
+                "description": "Gestion des erreurs liées à l’ID d’une propriété"
+            }
         ]
     },
     {
@@ -35,7 +65,49 @@
         "description_courte": "Jeu d’arcade rétro : pilotez un vaisseau, éliminez l’alien et progressez à travers 30 niveaux à difficulté croissante.",
         "image": "/projets/pixel.png",
         "couleur": "#DCBAE9",
-        "description_longue": "Dans ce projet, j’ai développé un jeu de tir en Python en utilisant le module p5, avec un univers en pixel art inspiré des classiques de l’arcade. Le joueur contrôle un vaisseau spatial capable de tirer des projectiles pour éliminer l'alien. Le jeu comporte 30 niveaux progressifs, avec une augmentation progressive de la difficulté (vitesse, taille, nombre ou comportement des ennemis). Le système de jeu repose sur la détection des collisions et m’a permis de mettre en pratique la programmation événementielle ainsi que la logique de boucle."
+        "description_longue": "Dans ce projet, j’ai développé un jeu de tir en Python en utilisant le module p5, avec un univers en pixel art inspiré des classiques de l’arcade. Le joueur contrôle un vaisseau spatial capable de tirer des projectiles pour éliminer l'alien. Le jeu comporte 30 niveaux progressifs, avec une augmentation progressive de la difficulté (vitesse, taille, nombre ou comportement des ennemis). Le système de jeu repose sur la détection des collisions et m’a permis de mettre en pratique la programmation événementielle ainsi que la logique de boucle.",
+        "technologies": [
+            {
+                "nom": "Python",
+                "logo": "/langages/python.png",
+                "bordure": "#FBBA3A"
+            },
+            {
+                "nom": "P5",
+                "logo": "/langages/p5.png",
+                "bordure": "#3277BA"
+            }
+        ],
+        "etapes": [
+            {
+                "titre": "Etape 1",
+                "description": "Conception du vaisseau et de l’alien"
+            },
+            {
+                "titre": "Etape 2",
+                "description": "Implémentation du système de tir"
+            },
+            {
+                "titre": "Etape 3",
+                "description": "Développement de la détection des collisions"
+            },
+            {
+                "titre": "Etape 4",
+                "description": "Ajout progressif de nouveaux types d’ennemis"
+            },
+            {
+                "titre": "Etape 5",
+                "description": "Insertion d’un champignon bonus à collecter"
+            },
+            {
+                "titre": "Etape 6",
+                "description": "Configuration du système de vies multiples pour le joueur"
+            },
+            {
+                "titre": "Etape 7",
+                "description": "Affichage dynamique de l’écran de fin (victoire ou défaite)"
+            }
+        ]
     },
     {
         "id": "back-end-site-de-notation-de-livres",
@@ -43,7 +115,59 @@
         "description_courte": "Création d’une API sécurisée avec Express, MongoDB et Mongoose, incluant authentification, gestion d’images et notation des livres",
         "image": "/projets/grimoire.jpg",
         "couleur": "#CB5629",
-        "description_longue": "Dans ce projet, j’ai conçu le back-end complet d’un site de notation de livres en utilisant Node.js, Express et MongoDB, avec une structure respectant l’architecture MVC. J’ai mis en place un serveur Express connecté à une base de données MongoDB via Mongoose, permettant la gestion sécurisée des utilisateurs et des livres. J’ai développé des modèles de données robustes, ainsi que les opérations CRUD nécessaires à la création, la lecture, la mise à jour et la suppression des livres. Un système d’authentification sécurisé (avec vérification des identifiants et gestion des tokens) a été implémenté pour protéger les routes sensibles. Le projet comprend également la gestion du téléversement et de l’optimisation d’images, et le calcul dynamique de la note moyenne des livres."
+        "description_longue": "Dans ce projet, j’ai conçu le back-end complet d’un site de notation de livres en utilisant Node.js, Express et MongoDB, avec une structure respectant l’architecture MVC. J’ai mis en place un serveur Express connecté à une base de données MongoDB via Mongoose, permettant la gestion sécurisée des utilisateurs et des livres. J’ai développé des modèles de données robustes, ainsi que les opérations CRUD nécessaires à la création, la lecture, la mise à jour et la suppression des livres. Un système d’authentification sécurisé (avec vérification des identifiants et gestion des tokens) a été implémenté pour protéger les routes sensibles. Le projet comprend également la gestion du téléversement et de l’optimisation d’images, et le calcul dynamique de la note moyenne des livres.",
+        "technologies": [
+            {
+                "nom": "Node JS",
+                "logo": "/langages/node.png",
+                "bordure": "#539E43"
+            },
+            {
+                "nom": "Express",
+                "logo": "/langages/express.png",
+                "bordure": "#FFFFFF"
+            },
+            {
+                "nom": "MongoDB",
+                "logo": "/langages/mongodb.png",
+                "bordure": "#13AA52"
+            },
+            {
+                "nom": "Mongoose",
+                "logo": "/langages/mongoose.png",
+                "bordure": "#D60002"
+            }
+        ],
+        "etapes": [
+            {
+                "titre": "Etape 1",
+                "description": "Initialisation de l’application"
+            },
+            {
+                "titre": "Etape 2",
+                "description": "Déploiement d’un serveur Express dédié"
+            },
+            {
+                "titre": "Etape 3",
+                "description": "Conception d’une API RESTful pour la gestion des données"
+            },
+            {
+                "titre": "Etape 4",
+                "description": "Implémentation d’un système d’authentification sécurisé"
+            },
+            {
+                "titre": "Etape 5",
+                "description": "Ajout de la gestion des fichiers utilisateur dans l’application"
+            },
+            {
+                "titre": "Etape 6",
+                "description": "Mise en œuvre du système de notation pour les livres"
+            },
+            {
+                "titre": "Etape 7",
+                "description": "Calcul automatique de la note moyenne attribuée à chaque livre"
+            }
+        ]
     },
     {
         "id": "optimisation-SEO-et-performance-du-site",
@@ -51,7 +175,49 @@
         "description_courte": "Audit, optimisation du code et amélioration de l’accessibilité pour booster les performances et le référencement d’un site vitrine.",
         "image": "/projets/nina.png",
         "couleur": "#B2AAAA",
-        "description_longue": "Dans ce projet, j’ai endossé le rôle de développeur freelance pour optimiser les performances, l’accessibilité et le référencement (SEO) d’un site vitrine appartenant à une photographe. Après avoir identifié les points bloquants à l’aide d’outils comme Lighthouse et Wave, j’ai analysé en profondeur les causes des temps de chargement élevés, des erreurs d’accessibilité et des limitations SEO. J’ai ensuite formulé et appliqué des recommandations concrètes : optimisation du code HTML/CSS, réduction du poids des images, amélioration de la structure sémantique et de la compatibilité avec les lecteurs d’écran. Toutes les optimisations ont été mises en œuvre directement dans le code du site. Enfin, j’ai produit un rapport comparatif avant/après contenant des captures d’écran des audits et une explication détaillée de chaque amélioration apportée, illustrant l’impact positif sur les performances et le positionnement du site dans les moteurs de recherche."
+        "description_longue": "Dans ce projet, j’ai endossé le rôle de développeur freelance pour optimiser les performances, l’accessibilité et le référencement (SEO) d’un site vitrine appartenant à une photographe. Après avoir identifié les points bloquants à l’aide d’outils comme Lighthouse et Wave, j’ai analysé en profondeur les causes des temps de chargement élevés, des erreurs d’accessibilité et des limitations SEO. J’ai ensuite formulé et appliqué des recommandations concrètes : optimisation du code HTML/CSS, réduction du poids des images, amélioration de la structure sémantique et de la compatibilité avec les lecteurs d’écran. Toutes les optimisations ont été mises en œuvre directement dans le code du site. Enfin, j’ai produit un rapport comparatif avant/après contenant des captures d’écran des audits et une explication détaillée de chaque amélioration apportée, illustrant l’impact positif sur les performances et le positionnement du site dans les moteurs de recherche.",
+        "technologies": [
+            {
+                "nom": "Lighthouse",
+                "logo": "/langages/lighthouse.png",
+                "bordure": "#F4481E"
+            },
+            {
+                "nom": "Wave",
+                "logo": "/langages/wave.png",
+                "bordure": "#4777B5"
+            }
+        ],
+        "etapes": [
+            {
+                "titre": "Etape 1",
+                "description": "Prise en main du code source existant"
+            },
+            {
+                "titre": "Etape 2",
+                "description": "Identification des optimisations possibles"
+            },
+            {
+                "titre": "Etape 3",
+                "description": "Amélioration des performances globales du site"
+            },
+            {
+                "titre": "Etape 4",
+                "description": "Optimisation technique du référencement naturel (SEO)"
+            },
+            {
+                "titre": "Etape 5",
+                "description": "Ajout du référencement local et des liens vers les réseaux sociaux"
+            },
+            {
+                "titre": "Etape 6",
+                "description": "Correction des problèmes liés à l’accessibilité"
+            },
+            {
+                "titre": "Etape 7",
+                "description": "Génération des rapports finaux et relecture complète des livrables"
+            }
+        ]
     },
     {
         "id": "quiz-interactif",
@@ -59,7 +225,54 @@
         "description_courte": "Création d’un quiz dynamique avec indices, effets sonores et logique JavaScript pour tester les connaissances en informatique",
         "image": "/projets/quiz.jpg",
         "couleur": "#007AFF",
-        "description_longue": "Dans ce projet, j’ai conçu un quiz interactif en JavaScript composé de 8 questions portant sur les notions fondamentales d’informatique étudiées en classe de première (algorithmes, données, réseaux, etc.). Développé en JavaScript vanilla, le quiz intègre une logique de progression question par question, avec vérification des réponses, indices contextuels pour aider l’utilisateur et effets sonores pour dynamiser l’expérience. La gestion du DOM permet l’affichage ou le masquage des éléments en fonction des actions de l’utilisateur, sans rechargement de la page."
+        "description_longue": "Dans ce projet, j’ai conçu un quiz interactif en JavaScript composé de 8 questions portant sur les notions fondamentales d’informatique étudiées en classe de première (algorithmes, données, réseaux, etc.). Développé en JavaScript vanilla, le quiz intègre une logique de progression question par question, avec vérification des réponses, indices contextuels pour aider l’utilisateur et effets sonores pour dynamiser l’expérience. La gestion du DOM permet l’affichage ou le masquage des éléments en fonction des actions de l’utilisateur, sans rechargement de la page.",
+        "technologies": [
+            {
+                "nom": "HTML",
+                "logo": "/langages/html.png",
+                "bordure": "#D1382B"
+            },
+            {
+                "nom": "CSS",
+                "logo": "/langages/css.png",
+                "bordure": "#264DE4"
+            },
+            {
+                "nom": "Javascript",
+                "logo": "/langages/javascript.png",
+                "bordure": "#FBD725"
+            }
+        ],
+        "etapes": [
+            {
+                "titre": "Etape 1",
+                "description": "Construction de la structure HTML et CSS du quiz"
+            },
+            {
+                "titre": "Etape 2",
+                "description": "Déploiement du système de navigation entre les questions"
+            },
+            {
+                "titre": "Etape 3",
+                "description": "Rédaction et intégration des différentes questions du quiz"
+            },
+            {
+                "titre": "Etape 4",
+                "description": "Mise en œuvre du calcul automatique du score de l’utilisateur"
+            },
+            {
+                "titre": "Etape 5",
+                "description": "Affichage conditionnel d’une image personnalisée selon le résultat"
+            },
+            {
+                "titre": "Etape 6",
+                "description": "Ajout d’effets sonores pour enrichir l’expérience utilisateur"
+            },
+            {
+                "titre": "Etape 7",
+                "description": "Insertion d’un indice spécifique pour chaque question"
+            }
+        ]
     },
     {
         "id": "page-web-dynamique",
@@ -67,6 +280,48 @@
         "description_courte": "Développement d’une interface interactive en JavaScript avec gestion d’événements et communication API",
         "image": "/projets/bluel.png",
         "couleur": "#14BF99",
-        "description_longue": "Dans ce projet, j’ai développé une page web dynamique pour le site d’une architecte d’intérieur, en manipulant le DOM en JavaScript vanilla à partir d’une structure HTML existante. L’interface affiche les réalisations de l’architecte en interagissant avec une API REST, permettant l’affichage dynamique des œuvres via des appels fetch. J’ai géré les événements utilisateurs (filtres par catégorie, navigation) et conçu une modale personnalisée permettant d’ajouter de nouveaux médias (images, titres, catégories) avec envoi au serveur. Une page de connexion sécurisée pour l’administrateur a également été implémentée, avec gestion du token JWT stocké localement pour accéder aux fonctions d’administration."
+        "description_longue": "Dans ce projet, j’ai développé une page web dynamique pour le site d’une architecte d’intérieur, en manipulant le DOM en JavaScript vanilla à partir d’une structure HTML existante. L’interface affiche les réalisations de l’architecte en interagissant avec une API REST, permettant l’affichage dynamique des œuvres via des appels fetch. J’ai géré les événements utilisateurs (filtres par catégorie, navigation) et conçu une modale personnalisée permettant d’ajouter de nouveaux médias (images, titres, catégories) avec envoi au serveur. Une page de connexion sécurisée pour l’administrateur a également été implémentée, avec gestion du token JWT stocké localement pour accéder aux fonctions d’administration.",
+        "technologies": [
+            {
+                "nom": "Javascript",
+                "logo": "/langages/javascript.png",
+                "bordure": "#FBD725"
+            },
+            {
+                "nom": "API",
+                "logo": "/langages/api.png",
+                "bordure": "#5EB8E1"
+            }
+        ],
+        "etapes": [
+            {
+                "titre": "Etape 1",
+                "description": "Connexion au back-end pour récupérer les projets"
+            },
+            {
+                "titre": "Etape 2",
+                "description": "Mise en place d’un système de filtrage des travaux"
+            },
+            {
+                "titre": "Etape 3",
+                "description": "Intégration de la page de connexion"
+            },
+            {
+                "titre": "Etape 4",
+                "description": "Vérification des identifiants utilisateur et stockage du token"
+            },
+            {
+                "titre": "Etape 5",
+                "description": "Ajout d’une fenêtre modale pour l’envoi de projet"
+            },
+            {
+                "titre": "Etape 6",
+                "description": "Suppression d’un projet existant depuis la modale"
+            },
+            {
+                "titre": "Etape 7",
+                "description": "Transmission d’un nouveau projet au back-end via le formulaire"
+            }
+        ]
     }
 ]

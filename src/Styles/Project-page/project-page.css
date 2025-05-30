@@ -69,3 +69,55 @@
 .step-project {
     border-bottom: 1px solid var(--jaune);
 }
+@media (min-width: 1024px) {
+    .banner-project img {
+        height: 563px;
+    }
+    .banner-project-content h1 {
+        font-size: 35px;
+    }
+    .banner-project-content {
+        width: 95%;
+    }
+    .banner-project-content button {
+        font-size: 18px;
+    }
+    .description-project p {
+        font-size: 18px;
+    }
+}
+@media (min-width: 1160px) {
+    .banner-project {
+        margin: 30px 180px;
+    }
+    .banner-project-content h1 {
+        font-size: 46px;
+    }
+    .description-project p {
+        font-size: 20px;
+    }
+    .description-project,
+    .tools-project,
+    .step-project {
+        margin: 50px 180px 20px;
+    }
+}
+@media (min-width: 1360px) {
+    .banner-project {
+        margin: 30px 280px;
+    }
+    .banner-project-content h1 {
+        font-size: 58px;
+    }
+    .description-project p {
+        font-size: 22px;
+    }
+    .description-project,
+    .tools-project,
+    .step-project {
+        margin: 50px 280px 20px;
+    }
+    .tools-project-content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

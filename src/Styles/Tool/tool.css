@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     height: 195px;
     border-radius: 20px;
+    background-color: var(--background-fonce);
 }
 .tool-container img {
     max-width: 80%;
@@ -12,5 +13,10 @@
     max-height: 40%;
 }
 .tool-container h3 {
-    font-size: 22px;
+    font-size: 18px;
+}
+@media (min-width: 1024px) {
+    .tool-container h3 {
+        font-size: 22px;
+    }
 }

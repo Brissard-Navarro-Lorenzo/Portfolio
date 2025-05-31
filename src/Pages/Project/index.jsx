@@ -19,14 +19,14 @@ export default function Project() {
                     </button>
                 </div>
             </section>
-            <section className="description-project">
+            <section className="description-project" id="description">
                 <div className="description-project-title">
                     <i className="fa-solid fa-file-lines"></i>
                     <h2>Description</h2>
                 </div>
                 <p>{projetEnCours.description_longue}</p>
             </section>
-            <section className="tools-project">
+            <section className="tools-project" id="technos">
                 <div className="tools-project-title">
                     <i className="fa-solid fa-screwdriver-wrench"></i>
                     <h2>Technologies utilisées</h2>
@@ -37,7 +37,7 @@ export default function Project() {
                     ))}
                 </div>
             </section>
-            <section className="step-project">
+            <section className="step-project" id="etapes">
                 <div className="step-project-title">
                     <i className="fa-solid fa-list-check"></i>
                     <h2>Etapes du projet</h2>

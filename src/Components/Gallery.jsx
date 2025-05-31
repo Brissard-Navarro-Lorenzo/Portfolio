@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 export default function Gallery() {
     return (
-        <section className="projets">
+        <section className="projets" id="projets">
             <h2>Mes projets</h2>
             <div className="projets-content">
                 {projets.map((projet) => (

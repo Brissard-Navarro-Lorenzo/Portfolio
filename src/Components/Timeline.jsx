@@ -5,7 +5,7 @@ import formations from "../Donnees/formations.json";
 
 export default function Timeline() {
     return (
-        <section className="formations">
+        <section className="formations" id="formations">
             <h2>Mes formations</h2>
             <VerticalTimeline>
                 {formations.map((formation, index) => (

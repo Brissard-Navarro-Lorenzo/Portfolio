@@ -15,10 +15,10 @@ export default function Banner() {
                 </h3>
                 <div className="banner_buttons">
                     <div className="buttons">
-                        <a href="#">
+                        <a href="#formations">
                             <button className="white_button">En savoir plus</button>
                         </a>
-                        <a href="#">
+                        <a href="#contact">
                             <button className="transparent_button">Contact</button>
                         </a>
                     </div>

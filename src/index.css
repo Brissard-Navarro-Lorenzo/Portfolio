@@ -26,3 +26,6 @@ body {
     outline: none;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}

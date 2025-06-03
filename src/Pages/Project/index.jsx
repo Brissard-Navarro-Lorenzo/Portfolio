@@ -13,10 +13,12 @@ export default function Project() {
                 <img src={projetEnCours.image} alt={`Image du projet ${projetEnCours.titre}`} />
                 <div className="banner-project-content">
                     <h1>{projetEnCours.titre}</h1>
-                    <button>
-                        <i className="fa-solid fa-eye"></i>
-                        Voir le projet
-                    </button>
+                    <a href={projetEnCours.lien} target="_blank" rel="noopener noreferrer">
+                        <button>
+                            <i className="fa-solid fa-eye"></i>
+                            Voir le projet
+                        </button>
+                    </a>
                 </div>
             </section>
             <section className="description-project" id="description">

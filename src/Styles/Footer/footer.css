@@ -19,6 +19,9 @@ footer h4 {
 footer svg {
     fill: var(--texte-blanc);
 }
+footer svg:hover {
+    fill: var(--jaune);
+}
 @media (min-width: 1024px) {
     footer h4 {
         position: static;

@@ -1,6 +1,6 @@
 import "../Styles/Projet/projet.css";
 
-export default function Projet({ image, titre, description, lien, couleur }) {
+export default function Projet({ image, titre, description, couleur }) {
     return (
         <div className="projet-container" style={{ border: `3px solid ${couleur}` }}>
             <img src={image} alt={`Image du projet ${titre}`} />
@@ -9,7 +9,7 @@ export default function Projet({ image, titre, description, lien, couleur }) {
                 <p>{description}</p>
                 <div className="projet-lien">
                     <p>Voir le projet</p>
-                    <i className="fa-solid fa-chevron-right"></i>
+                    <i className="fa-solid fa-arrow-right-long"></i>
                 </div>
             </div>
         </div>

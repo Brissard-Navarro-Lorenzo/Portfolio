@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router";
 import Navbar from "./Navbar";
 import Home from "../Pages/Home";
 import Footer from "./Footer";
@@ -12,6 +12,7 @@ export default function Routeur() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/project/:id" element={<Project />} />
+                <Route path="/Portfolio" element={<Navigate to="/" />} />
             </Routes>
             <Footer />
         </BrowserRouter>

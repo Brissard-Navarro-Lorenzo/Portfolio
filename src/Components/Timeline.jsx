@@ -11,10 +11,16 @@ export default function Timeline() {
                 {formations.map((formation, index) => (
                     <VerticalTimelineElement
                         key={index}
-                        date={<img className="timeline-picture" src={formation.image} alt={formation.image_alt} />}
+                        date={
+                            <img
+                                className="timeline-picture"
+                                src={`${import.meta.env.BASE_URL}${formation.image}`}
+                                alt={formation.image_alt}
+                            />
+                        }
                         icon={
                             <img
-                                src={formation.logo}
+                                src={`${import.meta.env.BASE_URL}${formation.logo}`}
                                 alt={formation.logo_alt}
                                 style={{
                                     width: "100%",

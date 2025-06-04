@@ -11,11 +11,10 @@ export default function Gallery() {
                 {projets.map((projet) => (
                     <Link to={`/project/${projet.id}`} key={projet.id}>
                         <Projet
-                            image={projet.image}
+                            image={`${import.meta.env.BASE_URL}${projet.image}`}
                             titre={projet.titre}
                             description={projet.description_courte}
                             couleur={projet.couleur}
-                            // key={index}
                         />
                     </Link>
                 ))}

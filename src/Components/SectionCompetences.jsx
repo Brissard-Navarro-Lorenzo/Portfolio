@@ -13,24 +13,24 @@ export default function SectionCompetences() {
                 <div className="slider-column">
                     <div className="slider-track">
                         {competences[0].images.map((categorie, index) => (
-                            <Competence image={categorie} alt={`logo ${categorie}`} key={index} />
+                            <Competence image={`${import.meta.env.BASE_URL}${categorie}`} alt={`logo ${categorie}`} key={index} />
                         ))}
                     </div>
                     <div className="slider-track">
                         {competences[0].images.map((categorie, index) => (
-                            <Competence image={categorie} alt={`logo ${categorie}`} key={index} />
+                            <Competence image={`${import.meta.env.BASE_URL}${categorie}`} alt={`logo ${categorie}`} key={index} />
                         ))}
                     </div>
                 </div>
                 <div className="slider-column">
                     <div className="slider-track reverse">
                         {competences[1].images.map((categorie, index) => (
-                            <Competence image={categorie} alt={`logo ${categorie}`} key={index} />
+                            <Competence image={`${import.meta.env.BASE_URL}${categorie}`} alt={`logo ${categorie}`} key={index} />
                         ))}
                     </div>
                     <div className="slider-track reverse">
                         {competences[1].images.map((categorie, index) => (
-                            <Competence image={categorie} alt={`logo ${categorie}`} key={index} />
+                            <Competence image={`${import.meta.env.BASE_URL}${categorie}`} alt={`logo ${categorie}`} key={index} />
                         ))}
                     </div>
                 </div>

@@ -146,7 +146,7 @@
 }
 
 /* Position de la ligne */
-.ant-steps.ant-steps-vertical .ant-steps-item .ant-steps-item-tail {
+.ant-steps.ant-steps-vertical .ant-steps-item .ant-steps-item-container .ant-steps-item-tail {
     padding: 48px 0 6px;
     inset-inline-start: 20px;
 }
@@ -199,6 +199,9 @@
 
     .ant-steps.ant-steps-vertical .ant-steps-item:not(:last-child) .ant-steps-item-tail {
         display: none;
+    }
+    .ant-steps.ant-steps-vertical > .ant-steps-item > .ant-steps-item-container > .ant-steps-item-tail::after {
+        height: 0 !important;
     }
 }
 

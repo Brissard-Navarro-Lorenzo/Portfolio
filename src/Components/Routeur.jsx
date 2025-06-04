@@ -7,7 +7,7 @@ import Project from "../Pages/Project";
 
 export default function Routeur() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/Portfolio">
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />

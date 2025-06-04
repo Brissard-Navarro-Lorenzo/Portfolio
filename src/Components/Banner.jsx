@@ -22,7 +22,7 @@ export default function Banner() {
                             <button className="transparent_button">Contact</button>
                         </a>
                     </div>
-                    <a href="#">
+                    <a href={`${import.meta.env.BASE_URL}CV_Lorenzo_Brissard--Navarro.pdf`} target="_blank" rel="noopener noreferrer">
                         <button className="transparent_button">Consulter le CV</button>
                     </a>
                 </div>

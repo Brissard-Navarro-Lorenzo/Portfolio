@@ -8,6 +8,11 @@
     background: var(--background-fonce);
     overflow: hidden;
     padding: 4px 4px 10px 4px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.projet-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
 }
 .projet-container img {
     object-fit: cover;
@@ -28,6 +33,13 @@
     justify-content: space-between;
     text-align: justify;
     flex: 1;
+    opacity: 0.85;
+    transform: translateY(0px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.projet-container:hover .projet-texte {
+    opacity: 1;
+    transform: translateY(-5px);
 }
 /* .projet-lien {
     display: flex;
@@ -49,7 +61,6 @@
     width: fit-content;
 }
 
-/* Ligne en bas */
 .projet-lien::before {
     content: "";
     position: absolute;

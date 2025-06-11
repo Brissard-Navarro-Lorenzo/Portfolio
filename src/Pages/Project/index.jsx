@@ -1,12 +1,15 @@
 import projets from "../../Donnees/projets.json";
 import "../../Styles/Project-page/project-page.css";
-import { useParams } from "react-router";
+import { useParams, Navigate } from "react-router";
 import Tool from "../../Components/Tool";
 import Step from "../../Components/StepComponent";
 
 export default function Project() {
     const { id } = useParams();
     const projetEnCours = projets.find((projet) => projet.id === id);
+    if (!projetEnCours) {
+        return <Navigate to="/" replace={true} />;
+    }
     return (
         <main>
             <section className="banner-project">

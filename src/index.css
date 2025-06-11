@@ -29,3 +29,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+::selection {
+    background: var(--jaune);
+    color: var(--background-fonce);
+}

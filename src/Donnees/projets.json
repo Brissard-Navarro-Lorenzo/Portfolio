@@ -10,22 +10,22 @@
         "technologies": [
             {
                 "nom": "React",
-                "logo": "/langages/react.png",
+                "logo": "/langages/react.webp",
                 "bordure": "#61DAFB"
             },
             {
                 "nom": "React-Router",
-                "logo": "/langages/react-router.png",
+                "logo": "/langages/react-router.webp",
                 "bordure": "#D0021B"
             },
             {
                 "nom": "Vite",
-                "logo": "/langages/vite.png",
+                "logo": "/langages/vite.webp",
                 "bordure": "#BD34FE"
             },
             {
                 "nom": "Sass",
-                "logo": "/langages/sass.png",
+                "logo": "/langages/sass.webp",
                 "bordure": "#CD669A"
             }
         ],
@@ -71,12 +71,12 @@
         "technologies": [
             {
                 "nom": "Python",
-                "logo": "/langages/python.png",
+                "logo": "/langages/python.webp",
                 "bordure": "#FBBA3A"
             },
             {
                 "nom": "P5",
-                "logo": "/langages/p5.png",
+                "logo": "/langages/p5.webp",
                 "bordure": "#3277BA"
             }
         ],
@@ -122,22 +122,22 @@
         "technologies": [
             {
                 "nom": "Node JS",
-                "logo": "/langages/node.png",
+                "logo": "/langages/node.webp",
                 "bordure": "#539E43"
             },
             {
                 "nom": "Express",
-                "logo": "/langages/express.png",
+                "logo": "/langages/express.webp",
                 "bordure": "#FFFFFF"
             },
             {
                 "nom": "MongoDB",
-                "logo": "/langages/mongodb.png",
+                "logo": "/langages/mongodb.webp",
                 "bordure": "#13AA52"
             },
             {
                 "nom": "Mongoose",
-                "logo": "/langages/mongoose.png",
+                "logo": "/langages/mongoose.webp",
                 "bordure": "#D60002"
             }
         ],
@@ -183,12 +183,12 @@
         "technologies": [
             {
                 "nom": "Lighthouse",
-                "logo": "/langages/lighthouse.png",
+                "logo": "/langages/lighthouse.webp",
                 "bordure": "#F4481E"
             },
             {
                 "nom": "Wave",
-                "logo": "/langages/wave.png",
+                "logo": "/langages/wave.webp",
                 "bordure": "#4777B5"
             }
         ],
@@ -234,17 +234,17 @@
         "technologies": [
             {
                 "nom": "HTML",
-                "logo": "/langages/html.png",
+                "logo": "/langages/html.webp",
                 "bordure": "#D1382B"
             },
             {
                 "nom": "CSS",
-                "logo": "/langages/css.png",
+                "logo": "/langages/css.webp",
                 "bordure": "#264DE4"
             },
             {
                 "nom": "Javascript",
-                "logo": "/langages/javascript.png",
+                "logo": "/langages/javascript.webp",
                 "bordure": "#FBD725"
             }
         ],
@@ -290,12 +290,12 @@
         "technologies": [
             {
                 "nom": "Javascript",
-                "logo": "/langages/javascript.png",
+                "logo": "/langages/javascript.webp",
                 "bordure": "#FBD725"
             },
             {
                 "nom": "API",
-                "logo": "/langages/api.png",
+                "logo": "/langages/api.webp",
                 "bordure": "#5EB8E1"
             }
         ],

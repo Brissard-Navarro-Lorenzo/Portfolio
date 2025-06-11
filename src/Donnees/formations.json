@@ -3,18 +3,18 @@
         "date": "2024 / 2025",
         "titre": "Développeur web (bac + 2) Openclassrooms",
         "description": "Au cours de cette formation, j’ai appris à concevoir des sites web responsives et dynamiques en intégrant des maquettes graphiques à l’aide de HTML, CSS, JavaScript et React. J’y ai également appris à développer la partie back-end avec Node.js, Express et MongoDB, en créant des API et des bases de données pour garantir un fonctionnement complet côté serveur. Celle-ci m’a aussi permis d’optimiser les performances des sites existants, notamment pour le référencement naturel (SEO), et de gérer un projet web de A à Z : de la planification à la présentation finale, en passant par la rédaction des spécifications techniques.",
-        "logo": "/formations/openclassrooms.png",
+        "logo": "/formations/openclassrooms.webp",
         "logo_alt": "Logo de la plateforme Openclassrooms",
-        "image": "/formations/apprentissage-a-distance.png",
+        "image": "/formations/apprentissage-a-distance.webp",
         "image_alt": "Icone d'un éléve qui étudie à distance sur son ordinateur"
     },
     {
         "date": "2023 / 2024",
         "titre": "Baccalauréat Général Mention Très Bien Spécialités Numérique et Sciences Informatiques (NSI) et Mathématiques Lycée Carnot, Cannes",
         "description": "Durant mes deux années de lycée en spécialité NSI, j’ai découvert les bases du développement web avec HTML, CSS et JavaScript. J’y ai surtout étudié la programmation avec Python et abordé le principe de la programmation orientée objet.",
-        "logo": "/formations/carnot.jpg",
+        "logo": "/formations/carnot.webp",
         "logo_alt": "Logo du lycée Carnot",
-        "image": "/formations/diplome.png",
+        "image": "/formations/diplome.webp",
         "image_alt": "Icone d'un mortarboard posé sur plusieurs livres"
     }
 ]

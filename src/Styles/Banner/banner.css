@@ -22,7 +22,7 @@
     font-weight: 400;
     color: var(--jaune);
 }
-.banner_content h3 {
+.banner_content h2 {
     font-size: 20px;
     font-weight: 400;
     width: 276px;
@@ -114,14 +114,14 @@
     .banner_content h1 {
         font-size: 58px;
     }
-    .banner_content h3 {
+    .banner_content h2 {
         font-size: 28px;
     }
     .banner_content {
         width: 460px;
         left: 180px;
     }
-    .banner_content h3 {
+    .banner_content h2 {
         width: 376px;
     }
 }

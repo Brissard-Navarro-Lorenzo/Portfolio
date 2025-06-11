@@ -1,18 +1,17 @@
 import "../Styles/Banner/banner.css";
-import BannerImage from "../images/image_accueil.png";
 import image from "../images/accueil_image.png";
 
 export default function Banner() {
     return (
         <section className="banner">
-            <img src={image} alt="Image d'accueil présentant différents langages" />
+            <img src={image} alt="Image d'accueil présentant différents langages" fetchPriority="high" />
             <div className="banner_content">
                 <h1>Bonjour je suis Lorenzo, développeur web passionné</h1>
-                <h3>
+                <h2>
                     Chaque projet commence par une idée.
                     <br />
                     Donnons-lui vie ensemble.
-                </h3>
+                </h2>
                 <div className="banner_buttons">
                     <div className="buttons">
                         <a href="#formations">

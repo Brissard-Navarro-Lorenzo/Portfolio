@@ -1,26 +1,26 @@
 [
     {
         "images": [
-            "/competences/html.png",
-            "/competences/css.png",
-            "/competences/javascript.png",
+            "/competences/html.webp",
+            "/competences/css.webp",
+            "/competences/javascript.webp",
             "/competences/react.webp",
-            "/competences/python.png",
-            "/competences/node.png",
-            "/competences/mongo.png",
-            "/competences/sass.png"
+            "/competences/python.webp",
+            "/competences/node.webp",
+            "/competences/mongo.webp",
+            "/competences/sass.webp"
         ]
     },
     {
         "images": [
-            "/competences/git.png",
-            "/competences/github.png",
-            "/competences/docker.png",
+            "/competences/git.webp",
+            "/competences/github.webp",
+            "/competences/docker.webp",
             "/competences/figma.webp",
-            "/competences/notion.png",
-            "/competences/postman.png",
-            "/competences/swagger.png",
-            "/competences/vite.png"
+            "/competences/notion.webp",
+            "/competences/postman.webp",
+            "/competences/swagger.webp",
+            "/competences/vite.webp"
         ]
     }
 ]

@@ -1,5 +1,5 @@
 import "../Styles/Footer/footer.css";
-import Logo from "../images/logo.jpg";
+import Logo from "../images/logo.webp";
 import { Link } from "react-router";
 export default function Footer() {
     return (

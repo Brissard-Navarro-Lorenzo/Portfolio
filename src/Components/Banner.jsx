@@ -1,5 +1,5 @@
 import "../Styles/Banner/banner.css";
-import image from "../images/accueil_image.png";
+import image from "../images/accueil_image.webp";
 
 export default function Banner() {
     return (

@@ -1,10 +1,17 @@
 import "../Styles/Banner/banner.css";
 import image from "../images/accueil_image.webp";
+import imagePetite from "../images/image_accueil_petite.webp";
 
 export default function Banner() {
     return (
         <section className="banner">
-            <img src={image} alt="Image d'accueil présentant différents langages" fetchPriority="high" />
+            <img
+                src={image}
+                alt="Image d'accueil présentant différents langages"
+                fetchPriority="high"
+                srcSet={`${imagePetite} 1024w, ${image} 1920w`}
+                sizes="(max-width: 1024px) 100vw, 1920px"
+            />
             <div className="banner_content">
                 <h1>Bonjour je suis Lorenzo, développeur web passionné</h1>
                 <h2>

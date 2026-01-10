@@ -1,5 +1,14 @@
 [
     {
+        "date": "2025 / 2028",
+        "titre": " Bachelor IT avec Spécialisation Développement Web - La Plateforme, Cannes",
+        "description": "Cette formation repose sur une pédagogie par projets réguliers, permettant aux apprenants de développer leurs compétences à travers des situations concrètes et professionnalisantes. La première année est consacrée à la révision des fondamentaux du développement web (HTML, CSS, JavaScript, React, Node.js) ainsi qu’à la découverte de nouveaux outils et concepts (PHP, SQL, Docker, Figma, Merise). La deuxième et la troisième année se déroulent en alternance, afin de renforcer l’employabilité et de permettre une mise en pratique directe des compétences acquises en entreprise.",
+        "logo": "/formations/laplateforme.webp",
+        "logo_alt": "Logo de l'ecole du numérique La Plateforme",
+        "image": "/formations/ecole_informatique.webp",
+        "image_alt": "Icone d'un professeur qui donne un cours d'informatique à des élèves qui travaillent sur leur ordinateur"
+    },
+    {
         "date": "2024 / 2025",
         "titre": "Développeur web (bac + 2) Openclassrooms",
         "description": "Au cours de cette formation, j’ai appris à concevoir des sites web responsives et dynamiques en intégrant des maquettes graphiques à l’aide de HTML, CSS, JavaScript et React. J’y ai également appris à développer la partie back-end avec Node.js, Express et MongoDB, en créant des API et des bases de données pour garantir un fonctionnement complet côté serveur. Celle-ci m’a aussi permis d’optimiser les performances des sites existants, notamment pour le référencement naturel (SEO), et de gérer un projet web de A à Z : de la planification à la présentation finale, en passant par la rédaction des spécifications techniques.",

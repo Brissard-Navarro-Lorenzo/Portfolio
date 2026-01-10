@@ -7,7 +7,7 @@ export default function Footer() {
             <Link to="/">
                 <img src={Logo} alt="Logo du portfolio" />
             </Link>
-            <h4>© 2025 Lorenzo Brissard--Navarro. All rights reserved</h4>
+            <h4>© 2026 Lorenzo Brissard--Navarro. All rights reserved</h4>
             <a
                 href="https://github.com/Brissard-Navarro-Lorenzo"
                 target="_blank"

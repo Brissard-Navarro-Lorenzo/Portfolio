@@ -6,6 +6,8 @@
             "/competences/javascript.webp",
             "/competences/react.webp",
             "/competences/python.webp",
+            "/competences/php.webp",
+            "/competences/sql.webp",
             "/competences/node.webp",
             "/competences/mongo.webp",
             "/competences/sass.webp"
@@ -20,6 +22,7 @@
             "/competences/notion.webp",
             "/competences/postman.webp",
             "/competences/swagger.webp",
+            "/competences/merise.webp",
             "/competences/vite.webp"
         ]
     }
